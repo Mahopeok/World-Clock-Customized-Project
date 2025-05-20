@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.47/moment-timezone-with-data-1970-2030.min.js"></script>
     <script src="index.css"></script>
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>World CLOCK - Okpanachi Hope</title>
 </head>
 <body>
     <div class="container">
@@ -13,10 +15,16 @@
     <select name="" id="city-select">
         <option value="">Select a city</option>
         <option value="current">Current Location</option>
+        <option value="Africa/Lagos">Lagos</option>
         <option value="Europe/London">London</option>
         <option value="America/New_York">New York</option>
         <option value="Asia/Tokyo">Tokyo</option>
         <option value="Europe/Paris">Paris</option>
+        <option value="Asia/Singapore">Singapore</option>
+        <option value="Indian/Maldives">Maldives</option>
+        <option value="Africa/Accra">Accra</option>
+        <option value="Australia/Adelaide">Adelaide</option>
+
     </select>
         <div id="city">
     <div class="city" id="los-angeles">
@@ -43,6 +51,22 @@
         </div>
         <div class="time"></div>
         </div>
+
+        <div class="city" id="nairobi">
+        <div class="city-date"><h2>Nairobi</h2>
+        <div class="date"></div>
+        </div>
+        <div class="time"></div>
+        </div>
+
+        <div class="city" id="jerusalem">
+        <div class="city-date"><h2>Jerusalem</h2>
+        <div class="date"></div>
+        </div>
+        <div class="time"></div>
+        </div>
+
+       
     </div>
 
     </div>

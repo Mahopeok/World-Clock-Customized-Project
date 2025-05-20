@@ -21,6 +21,25 @@ let sydneyTimeElement = sydneyElement.querySelector(".time");
 let sydneyTime = moment().tz("Australia/Sydney");
 sydneyDateElement.innerHTML =sydneyTime.format("MMMM Do YYYY");
 sydneyTimeElement.innerHTML =sydneyTime.format("h:mm:ss [<small>]A[</small>]");
+
+
+let nairobiElement = document.querySelector("#nairobi");
+let nairobiDateElement = nairobiElement.querySelector(".date");
+let nairobiTimeElement = nairobiElement.querySelector(".time");
+let nairobiTime = moment().tz("Africa/Nairobi");
+nairobiDateElement.innerHTML =nairobiTime.format("MMMM Do YYYY");
+nairobiTimeElement.innerHTML =nairobiTime.format("h:mm:ss [<small>]A[</small>]");
+
+
+let jerusalemElement = document.querySelector("#jerusalem");
+let jerusalemDateElement = jerusalemElement.querySelector(".date");
+let jerusalemTimeElement = jerusalemElement.querySelector(".time");
+let jerusalemTime = moment().tz("Asia/Jerusalem");
+jerusalemDateElement.innerHTML =jerusalemTime.format("MMMM Do YYYY");
+jerusalemTimeElement.innerHTML =jerusalemTime.format("h:mm:ss [<small>]A[</small>]");
+
+
+
 }
 
 function updateCity(event) {
